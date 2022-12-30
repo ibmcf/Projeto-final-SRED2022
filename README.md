@@ -14,4 +14,10 @@ Criar um ambiente de rede virtualizado, composto por 6 máquinas virtuais que ut
 
 
 ## Roteiro de desenvolvimento
+
+1. Configuração do ambiente 
+2. Gateway Server
+3. SAMBA
+
+
 ## Considerações finais
