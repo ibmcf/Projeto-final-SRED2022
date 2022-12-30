@@ -12,6 +12,11 @@ Projeto avaliativo das disciplinas de redes de computadores (PIRD/SERD) direcion
 
 Criar um ambiente de rede virtualizado, composto por 6 máquinas virtuais que utilizam o SO Ubuntu Server. Nesse sentido, o presente projeto utiliza os serviços de gateway e Samba, que foram estudados previamente em sala de aula. Dessa forma, colocando em prática os conhecimentos adquiridos ao longo das matérias de redes de computadores (PIRD e SRED). 
 
+## Definições da redee
+Nessa seção estão os endereços de ip das VMs utilizadas no projeto
+
+* Definições da rede
+
 
 ## Roteiro de desenvolvimento
 
