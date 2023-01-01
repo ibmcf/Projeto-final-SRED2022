@@ -36,7 +36,7 @@
 
 |VM|Domínio (zona):|grupo7.turma924.ifalara.local
 |-|-|-
-|-|-|-
-
+|Aluno28|FQDN do GW:|gw.grupo7.turma924.ifalara.local	
+		
 
 
