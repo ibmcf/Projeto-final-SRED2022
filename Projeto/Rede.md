@@ -37,6 +37,27 @@
 |VM|Domínio (zona):|grupo7.turma924.ifalara.local
 |-|-|-
 |Aluno28|FQDN do GW:|gw.grupo7.turma924.ifalara.local	
+|Aluno22|FQDN do SAMBA:|smb.grupo7.turma924.ifalara.local	
+|Aluno07|FQDN do NS1:|ns1.grupo7.turma924.ifalara.local		
+|Aluno17|FQDN do NS2:|ns2.grupo7.turma924.ifalara.local		
+|Grupo7VM(www)|FQDN do WEB:|www.grupo7.turma924.ifalara.local
+|Grupo7VM(bd)|FQDN do BD:|bd.grupo7.turma924.ifalara.local
+
+			
+
+
+
+
+
+		
+
+	
+
+
+		
+
+		
+
 		
 
 

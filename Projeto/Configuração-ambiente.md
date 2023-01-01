@@ -1,4 +1,6 @@
 # Configuração do ambiente
 
-* VPN
-* 
+* Instalação do VPN
+* Configuração da Interface ENS192 
+
+

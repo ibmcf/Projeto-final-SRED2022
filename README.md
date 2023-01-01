@@ -15,14 +15,16 @@ Criar um ambiente de rede virtualizado, composto por 6 máquinas virtuais que ut
 ## Definições da redee
 Nessa seção estão os endereços de ip das VMs utilizadas no projeto
 
-* Definições da rede
+* [Definições da rede](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Projeto/Rede.md)
 
 
 ## Roteiro de desenvolvimento
 
-1. Configuração do ambiente 
-2. Gateway Server
-3. SAMBA
+[1. Configuração do ambiente](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Projeto/Configura%C3%A7%C3%A3o-ambiente.md)
+
+[2. Gateway Server]()
+
+[3. SAMBA]()
 
 
 ## Considerações finais
