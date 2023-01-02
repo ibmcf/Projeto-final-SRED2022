@@ -9,7 +9,7 @@ Dando prosseguimento ao projeto, agora configuraremos um servidor compartilhamen
 ## Instalação do SAMBA
 1.  Primeiro., verifique se há a necessidade de atualização de pacotes do linux com o comando ```sudo apt update```
 
-![image](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/update.png)
+![image](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/update.png)
 
 2. Para instalar o SAMBA, digite:
 
@@ -17,7 +17,7 @@ Dando prosseguimento ao projeto, agora configuraremos um servidor compartilhamen
 sudo apt install samba
 ```
 
-![Image](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/Instalação-samba.png)
+![Image](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/Instala%C3%A7%C3%A3o-samba.png)
 
 3. Verifique se o servidor está funcionando:
 
@@ -25,18 +25,18 @@ sudo apt install samba
 whereis samba
 ```
 
-![whereis samba](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/whereis-samba.png)
+![whereis samba](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/whereis-samba.png)
 
 ```bash
  sudo systemctl status smbd
 ```
-![status smbd](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/status-smbd.png)
+![status smbd](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/status-smbd.png)
 
 ```
 netstat -an | grep LISTEN
 ```
 
-![status smb](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/netstat.png)
+![status smb](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/netstat.png)
 
 4. Faça o backup do arquivo de configuração do samba e crie um arquivo novo somente com os comandos necessários.
 
@@ -94,7 +94,7 @@ $ sudo nano /etc/samba/smb.conf
 
 6. Volte ao arquivo ```smb.conf``` e modifique a pasta /samba/public para acesso a somente usuários do grupo sambashare. Para isso, comente as linhas do arquivo de acordo com a imagem abaixo:
 
-![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/smb-conf-2.png)
+![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/smb-conf.png)
 
 ## Compartilhamento Samba
 
@@ -104,7 +104,7 @@ $ sudo nano /etc/samba/smb.conf
 ```` 
 sudo adduser <username>
 ````
-![adduser](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/adduser.png)
+![adduser](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/adduser.png)
 
 
 2. Para vincular o usuário do S.O. ao Serviço Samba, utilize:
@@ -138,7 +138,7 @@ sudo chmod -R 0775 /samba/public
 sudo chgrp sambashare /samba/public
 ````
 
-![Diretório](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/diretorio-samba.png)
+![Diretório](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/diretorio-samba.png)
 
 No cliente:
 
@@ -150,4 +150,4 @@ No cliente:
 
 4. Ao utilizar o comando ``` ls -la /samba/public``` você conseguirá visualizar os arquivos criados nela.
 
-![](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/pasta.png)
+![](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/pasta.png)
