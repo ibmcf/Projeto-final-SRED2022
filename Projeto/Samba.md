@@ -84,7 +84,7 @@ $ sudo nano /etc/samba/smb.conf
    read only = yes
    guest ok = no
 ````
-![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/smb-conf.png)
+![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/smb-conf.png)
 
 5. Reinicie o serviço smbd
 
@@ -94,7 +94,7 @@ $ sudo nano /etc/samba/smb.conf
 
 6. Volte ao arquivo ```smb.conf``` e modifique a pasta /samba/public para acesso a somente usuários do grupo sambashare. Para isso, comente as linhas do arquivo de acordo com a imagem abaixo:
 
-![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/smb-conf.png)
+![smb.conf](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Imagens/SAMBA/smb-conf-2%20.png)
 
 ## Compartilhamento Samba
 
