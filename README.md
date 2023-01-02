@@ -24,7 +24,7 @@ Nessa seção estão os endereços de ip das VMs utilizadas no projeto
 
 [2. Gateway Server]()
 
-[3. SAMBA]()
+[3. SAMBA](https://github.com/ibmcf/Projeto-final-SRED2022/blob/main/Projeto/Samba.md)
 
 
 ## Considerações finais
